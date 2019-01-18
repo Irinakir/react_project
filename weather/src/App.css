@@ -24,7 +24,7 @@
   color: #61dafb;
 }
 body {
-      background: linear-gradient(65deg, #fff, #fff2e6);
+  background: linear-gradient(65deg, #fff, #fff2e6);
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
@@ -45,6 +45,60 @@ body {
   font-size: 3em;
   margin-bottom: 0;
   padding-bottom: 30px;
+}
+
+.mySection{
+  border-left: 1px solid #e0e0eb;
+  padding: 20px 20px;
+  margin: 70px 0 0 60px;
+  box-shadow: 1px 1px 8px 1px #b5a6a6;
+  border-radius:20px;
+  display:flex;
+  text-align:left;
+  flex-direction: column;
+  justify-content: space-between;
+  width:30%;
+  height:auto;
+}
+
+.mySection h1{
+  font-size: 22px;
+  color: #800000;
+  margin-left: 20px;
+
+}
+
+li a:hover{
+  text-decoration:underline;
+  color: #800000;
+}
+
+.mybutton{
+  margin:30px;
+  outline: none;
+  border-radius:15px;
+  background:#d8c8c8;
+  color:#292727;
+  list-style:none;
+  text-decoration:none;
+  padding: 10px;
+}
+.mybutton:hover{
+  outline: none;
+  background:  #800000;
+  list-style:none;
+  text-decoration:none;
+  color:#fff;
+}
+
+
+.mybutton:active,
+.mybutton:focus {
+  outline: none;
+  background: #ef0707;
+  list-style:none;
+  text-decoration:none;
+  color:#fff;
 }
 
 @keyframes App-logo-spin {
