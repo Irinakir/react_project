@@ -40,11 +40,26 @@ class WeatherDisplay extends Component {
   }
   componentDidMount() {
       const name = this.props.name;
-      const URL = "http://api.openweathermap.org/data/2.5/weather?q=" +
-      name +
-        "&appid=e8d45262db3588472ff7091896703bf4&units=metric";
-        fetch(URL).then(res => res.json()).then(json => {
-            this.setState({ weatherData: json });
+
+      if (location.protocol === 'http:') {
+        const URL = "http://api.openweathermap.org/data/2.5/weather?q=" +
+          name +
+            "&appid=e8d45262db3588472ff7091896703bf4&units=metric";
+            fetch(URL).then(res => res.json()).then(json => {
+                this.setState({ weatherData: json });
+            } else {
+              const URL = "https://api.openweathermap.org/data/2.5/weather?q=" +
+                name +
+                  "&appid=e8d45262db3588472ff7091896703bf4&units=metric";
+                  fetch(URL).then(res => res.json()).then(json => {
+                      this.setState({ weatherData: json });      
+            }
+
+    //  const URL = "https://api.openweathermap.org/data/2.5/weather?q=" +
+    //  name +
+    //    "&appid=e8d45262db3588472ff7091896703bf4&units=metric";
+    //    fetch(URL).then(res => res.json()).then(json => {
+    //        this.setState({ weatherData: json });
       });
     }
   render() {
