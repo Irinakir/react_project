@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import ReactDOM from 'react-dom';
-import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap";
 import "bootswatch/dist/litera/bootstrap.css";
 import "mdbootstrap/css/bootstrap.css";
 //import "mdbreact/dist/css/mdb.css";
