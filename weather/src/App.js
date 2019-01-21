@@ -25,7 +25,7 @@ const PLACES = [
   { namer: "Ивано-Франковск", name: "Ivano-Frankivsk" },
   { namer: "Полтава", name: "Poltava" },
   { namer: "Николаев", name: "Mykolayiv" },
-  { namer: "Одесса", name: "Odessa" },
+  { namer: "Ровно", name: "Rivne" },
   { namer: "Черкасы", name: "Cherkasy" }
 
 ];
@@ -126,7 +126,8 @@ class NewButton extends React.Component {
 
       //<button onclick="window.open.href='/App_cal'">Continue</button>
      //<a className="mybutton" href="App_cal.js"> Календарь </a>
-    <a className="mybutton" href={url} target="_blank" rel="noopener noreferrer"> Календарь </a>
+    //<a className="mybutton" href={url} target="_blank" rel="noopener noreferrer"> Календарь </a>
+    <a  className="mybutton" href="https://irinakir.github.io/calendar/" target="_blank"  rel="noopener noreferrer">  Календарь  </a>
       //  <button onclick= "window.open(url,  '_blank')">Continue</button>
     //  <button className="mybutton" onClick={() => window.open(url, '_blank')}>
     //    Календарь
