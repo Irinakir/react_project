@@ -27,7 +27,7 @@ const PLACES = [
   { namer: "Николаев", name: "Mykolayiv" },
   { namer: "Ровно", name: "Rivne" },
   { namer: "Черкасы", name: "Cherkasy" }
-
+ 
 ];
 
 
