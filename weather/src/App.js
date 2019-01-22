@@ -89,9 +89,9 @@ class App extends Component {
         <Navbar>
           <Navbar.Header>
             <Navbar.Brand>
-            <h2>
+            <h1>
               React Weather
-              </h2>
+              </h1>
             </Navbar.Brand>
           </Navbar.Header>
         </Navbar>
