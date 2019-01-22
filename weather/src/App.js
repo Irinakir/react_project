@@ -27,7 +27,7 @@ const PLACES = [
   { namer: "Николаев", name: "Mykolayiv" },
   { namer: "Ровно", name: "Rivne" },
   { namer: "Черкасы", name: "Cherkasy" }
- 
+
 ];
 
 
@@ -89,8 +89,8 @@ class App extends Component {
         <Navbar>
           <Navbar.Header>
             <Navbar.Brand>
-            <h2 className="textbig">
-              Пример React Weather App
+            <h2>
+              React Weather
               </h2>
             </Navbar.Brand>
           </Navbar.Header>
