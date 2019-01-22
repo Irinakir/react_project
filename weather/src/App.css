@@ -31,7 +31,7 @@ body {
 .textbig {
   text-transform: uppercase;
   color: #800000;
-  font-size: 4em;
+  font-size: 32px;
   padding-bottom: 50px;
 }
 .text_select{
@@ -67,6 +67,7 @@ body {
   margin-left: 20px;
 
 }
+
 
 li a:hover{
   text-decoration:underline;
